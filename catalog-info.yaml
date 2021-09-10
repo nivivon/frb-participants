@@ -1,0 +1,11 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: frb-participants
+  description: Rubygem for querying Federal Reserve Banks' Fedwire & FedACH participants
+  tags:
+    - ruby
+spec:
+  type: library
+  lifecycle: production
